@@ -1,3 +1,3 @@
 # 코딩 테스트 과제
 
-채팅방 구현 [Create React App](https://github.com/facebook/create-react-app).
+채팅방 구현 [Demo page로 이동](https://flamboyant-hoover-97a2ae.netlify.app).
