@@ -30,21 +30,19 @@ class ChatData {
         )
       ) {
         return -1;
-      }
-
-      if (
+      } else if (
         moment(a.created_at, DATEFORMAT).isAfter(
           moment(b.created_at, DATEFORMAT)
         )
       ) {
         return 1;
-      }
-
-      if (
+      } else if (
         moment(a.created_at, DATEFORMAT).isSame(
           moment(b.created_at, DATEFORMAT)
         )
       ) {
+        return 0;
+      } else {
         return 0;
       }
     });

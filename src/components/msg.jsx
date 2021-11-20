@@ -24,7 +24,7 @@ function SimpleDialog(props) {
   return (
     <Dialog onClose={handleClose} open={open}>
       <DialogContent onClick={handleClick}>
-        <img src={url} alt="dialog image" style={{ width: '100%' }}></img>
+        <img src={url} alt="user" style={{ width: '100%' }}></img>
       </DialogContent>
     </Dialog>
   );
