@@ -8,7 +8,7 @@ class ChatData {
   }
 
   async getDatas() {
-    const result = await fetch('http://test.vanillabridge.com/test_data')
+    const result = await fetch('https://test.vanillabridge.com/test_data')
       .then((res) => res.json())
       .catch((err) => {
         console.error(err);
